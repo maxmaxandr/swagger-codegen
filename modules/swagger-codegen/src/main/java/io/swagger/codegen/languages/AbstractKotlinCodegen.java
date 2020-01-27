@@ -33,7 +33,7 @@ public abstract class AbstractKotlinCodegen extends DefaultCodegen implements Co
 
     public AbstractKotlinCodegen() {
         super();
-        supportsInheritance = true;
+        supportsInheritance = false;
 
         languageSpecificPrimitives = new HashSet<String>(Arrays.asList(
                 "kotlin.Byte",
